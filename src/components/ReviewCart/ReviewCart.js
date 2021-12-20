@@ -1,7 +1,6 @@
 import React from 'react';
 
 const ReviewCart = (props) => {
-    console.log(props.item)
     const {name, price, quantity, key} = props.item
     return (
         <div className='product'>
