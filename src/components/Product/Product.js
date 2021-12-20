@@ -18,11 +18,11 @@ const Product = (props) => {
                 <p><small>by: {seller}</small></p>
                 <p>Price: {price}</p>
                 <p><small>only {stock} left in stock - order soon</small></p>
-                <Rating
+                {/* <Rating
                     initialRating={star}
                     emptySymbol="far fa-star icon-color"
                     fullSymbol="fas fa-star icon-color"
-                    readonly></Rating>
+                    readonly></Rating> */}
                 <br />
                 <button
                     onClick={() => props.handleAddToCart(props.product)}
